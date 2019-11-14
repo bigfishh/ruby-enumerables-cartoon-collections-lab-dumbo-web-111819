@@ -21,7 +21,7 @@ end
 def find_the_cheese(aos)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  aos.find{|cheese| }
+  aos.find{|cheese| cheese_types.includes(cheese)}
 end
 
 
