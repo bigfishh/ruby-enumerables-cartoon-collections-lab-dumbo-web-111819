@@ -12,8 +12,10 @@ end
 
 def long_planeteer_calls(calls_array)
   if calls_array.any?{|words| words.length < 4}
-    return t
-  calls_array.all?{|words| words.length < 4}
+    return true 
+  else 
+    return false 
+  end
 end
 
 def find_the_cheese# code an argument here
